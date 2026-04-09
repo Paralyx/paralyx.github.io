@@ -524,6 +524,45 @@ h1 {
   line-height: 1.68;
 }
 
+.beta-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.beta-form label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.beta-form input {
+  min-height: 48px;
+  border-radius: 14px;
+  border: 1px solid rgba(127, 160, 124, 0.28);
+  padding: 0 14px;
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.96rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.beta-form input:focus {
+  outline: 2px solid rgba(124, 195, 76, 0.48);
+  outline-offset: 2px;
+}
+
+.beta-form .button {
+  border: 0;
+  cursor: pointer;
+}
+
+.beta-mail-link {
+  display: inline-flex;
+  margin-top: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .feature-card-large {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(247, 251, 242, 0.88)),

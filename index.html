@@ -132,9 +132,21 @@
           <article class="feature-card feature-card-large">
             <p class="card-kicker">Beta access</p>
             <h3>Request your invite.</h3>
-            <p>
-              Email <a href="mailto:joshuabruegge@live.com">joshuabruegge@live.com</a> with the subject "QLFT TestFlight".
-            </p>
+            <p>Submit your Apple ID email and your mail app will open with a ready-to-send TestFlight request.</p>
+            <form class="beta-form" data-beta-form>
+              <label for="beta-email">Apple ID email for TestFlight</label>
+              <input
+                id="beta-email"
+                name="betaEmail"
+                type="email"
+                inputmode="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+              >
+              <button class="button button-primary" type="submit">Send TestFlight request</button>
+            </form>
+            <a class="beta-mail-link" href="mailto:joshuabruegge@live.com?subject=QLFT%20TestFlight%20Request">Or email directly: joshuabruegge@live.com</a>
           </article>
 
           <article class="feature-card">
