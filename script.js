@@ -32,7 +32,7 @@ if (betaForm) {
     }
 
     const userEmail = emailInput.value.trim();
-    const subject = "QLFT TestFlight Request";
+    const subject = "QLFT TestFlight Anfrage (Webseite)";
     const body = [
       "Hi Joshua,",
       "",

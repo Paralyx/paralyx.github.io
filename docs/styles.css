@@ -551,16 +551,19 @@ h1 {
 }
 
 .beta-form .button {
+  width: 100%;
   border: 0;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
-.beta-mail-link {
-  display: inline-flex;
+.beta-form-actions {
   margin-top: 12px;
-  font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+}
+
+.beta-direct-button {
+  min-height: 46px;
 }
 
 .feature-card-large {
