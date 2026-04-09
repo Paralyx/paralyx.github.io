@@ -7,6 +7,7 @@ Static marketing site and App Store support pages for `QLFT - QuickLift`.
 - `index.html`: marketing homepage
 - `privacy.html`: App Store friendly privacy policy page
 - `support.html`: support page
+- `impressum.html`: legal notice for German law (`Impressum`)
 - `styles.css`: shared site styles
 - `script.js`: small reveal animations
 - `assets/`: screenshots, branding art, and icon
@@ -47,25 +48,20 @@ Expected repository root structure:
 - `index.html`
 - `privacy.html`
 - `support.html`
+- `impressum.html`
 - `styles.css`
 - `script.js`
 - `assets/`
 - `docs/`
 - `.github/`
 
-## Placeholder Details To Replace
+## Legal Pages
 
-Search these files and replace the placeholder details before launch:
+The repository includes dedicated legal/support pages for App Store and TestFlight usage:
 
-- `privacy.html`
-- `support.html`
-
-Update:
-
-- `privacy@example.com`
-- `support@example.com`
-- `Your Company Name Here`
-- `https://your-domain.example`
+- `privacy.html` (Datenschutzerklärung)
+- `impressum.html` (Impressum)
+- `support.html` (Support)
 
 ## Notes
 
