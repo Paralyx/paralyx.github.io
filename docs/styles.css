@@ -106,11 +106,26 @@ a {
 .section,
 .site-footer,
 .legal-header,
+.top-banner,
 .legal-main {
   position: relative;
   z-index: 1;
   width: min(calc(100% - 36px), var(--site-width));
   margin: 0 auto;
+}
+
+.top-banner {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(124, 195, 76, 0.32);
+  background: rgba(174, 244, 109, 0.2);
+  box-shadow: 0 10px 24px rgba(82, 109, 64, 0.12);
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .site-header,
